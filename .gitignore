@@ -1,0 +1,11 @@
+# Claude / OMC 내부 파일
+.claude/
+.omc/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Node (server.js용 로컬 프록시)
+node_modules/
+npm-debug.log*
