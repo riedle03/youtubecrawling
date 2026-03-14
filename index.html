@@ -50,15 +50,26 @@
         <p class="text-sm text-slate-400">YouTube 댓글편 — 국어 수업용 텍스트마이닝</p>
       </div>
     </div>
-    <button
-      id="btn-settings"
-      onclick="Settings.openModal()"
-      class="settings-btn flex items-center gap-2 px-3 py-2 rounded-xl text-sm transition"
-      aria-label="설정 열기"
-    >
-      <span class="text-base">⚙️</span>
-      <span class="hidden sm:inline text-slate-300 font-medium">설정</span>
-    </button>
+    <div class="flex items-center gap-2">
+      <a
+        href="guide.html"
+        target="_blank"
+        class="settings-btn flex items-center gap-2 px-3 py-2 rounded-xl text-sm transition"
+        aria-label="수업 가이드 열기"
+      >
+        <span class="text-base">📖</span>
+        <span class="hidden sm:inline text-slate-300 font-medium">수업 가이드</span>
+      </a>
+      <button
+        id="btn-settings"
+        onclick="Settings.openModal()"
+        class="settings-btn flex items-center gap-2 px-3 py-2 rounded-xl text-sm transition"
+        aria-label="설정 열기"
+      >
+        <span class="text-base">⚙️</span>
+        <span class="hidden sm:inline text-slate-300 font-medium">설정</span>
+      </button>
+    </div>
   </header>
 
   <!-- ============================
